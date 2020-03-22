@@ -1,0 +1,29 @@
+{
+  "name": "covid19-rs-quasar",
+  "version": "0.0.1",
+  "description": "Informações sobre o COVID-19 no Rio Grande do Sul - BRASIL",
+  "productName": "COVID19-RS",
+  "cordovaId": "com.kabrau.quasarcovid19rs",
+  "capacitorId": "",
+  "author": "Marcelo Cabral Ghilardi <kabrau@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "quasar": "^1.0.0",
+    "vue-i18n": "^8.15.5"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
