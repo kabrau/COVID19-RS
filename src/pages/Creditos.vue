@@ -2,44 +2,32 @@
   <q-page class="q-pa-lg">
     <h5 class="q-mt-none">Créditos</h5>
 
+    <q-icon name="img:~/assets/linkedin.svg" />
+
     <q-card class="my-card" flat bordered>
+      <q-card-section horizontal>
+        <q-card-section class="q-pt-xs">
+          <div class="text-overline">MSc. Marcelo Cabral Ghilardi</div>
+          <div class="text-h5 q-mt-sm q-mb-xs">Kabrau</div>
+          <div class="text-caption text-grey">Programando até dormindo</div>
+        </q-card-section>
 
-
-      <q-card-section>
-        <div class="text-overline text-orange-9">MSc.</div>
-        <div class="text-h5 q-mt-sm q-mb-xs">Marcelo Cabral</div>
-        <div class="text-caption text-grey">
-          Programando até dormindo
-        </div>
+        <q-card-section class="col-5 flex flex-center">
+          <q-avatar size="100px">
+            <img :src="imageSrc" />
+          </q-avatar>
+        </q-card-section>
       </q-card-section>
+
+      <q-separator />
 
       <q-card-actions>
-        <q-btn flat label="Linkedin" />
-        <q-btn flat label="Github" />
-        <q-btn class="linkedin" round color="deep-orange" icon="local_activity" />
+        <q-btn flat v-on:click="linkedin()">Linkedin</q-btn>
+        <q-btn flat v-on:click="Github()">Github</q-btn>
       </q-card-actions>
-
     </q-card>
 
-
- <q-card class="my-card" flat bordered>
-      <q-card-section horizontal>
-        <q-card-section>
-          <div class="text-h6">Marcelo Cabral</div>
-          <div class="text-subtitle2"></div>
-          <p>https://www.linkedin.com/in/marcelocabralghilardi/</p>
-        </q-card-section>
-
-        <q-card-section>
-    <q-avatar size="100px">
-      <img :src="imageSrc">
-    </q-avatar>
-        </q-card-section>
-        
-      </q-card-section>
-    </q-card>
-
-    
+    <div></div>
   </q-page>
 </template>
 
@@ -47,11 +35,20 @@
 import avatar from "../assets/avatar.jpg";
 
 export default {
-  name: 'Creditos',
-  data () {
+  name: "Creditos",
+  created() {},
+  methods: {
+    linkedin: () =>
+      window.open(
+        "https://www.linkedin.com/in/marcelocabralghilardi/",
+        "_blank"
+      ),
+    Github: () => window.open("https://github.com/kabrau//", "_blank")
+  },
+  data() {
     return {
       imageSrc: avatar
-    }
+    };
   }
-}
+};
 </script>
