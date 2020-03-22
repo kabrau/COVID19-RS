@@ -14,7 +14,7 @@ bower_components
 
 # Quasar core related directories
 .quasar
-/dist
+
 
 # Cordova related directories and files
 /src-cordova/node_modules
@@ -48,7 +48,7 @@ thumb
 sketch
 
 node_modules/
-dist/
+
 npm-debug.log
 yarn-error.log
 
