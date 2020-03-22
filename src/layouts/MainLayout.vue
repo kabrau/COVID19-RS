@@ -73,23 +73,29 @@ const menuList = [
     to: '/'
   },
   {
-    icon: 'map',
-    label: 'Mapa',
+    icon: 'location_city',
+    label: 'Casos por Cidade',
     separator: true,
-    to: '/mapa'
+    to: '/porCidade'
   },
+  //{
+    //icon: 'map',
+    //label: 'Mapa',
+    //separator: true,
+    //to: '/mapa'
+  //},
   {
     icon: 'visibility',
     label: 'Sintomas',
     separator: false,
     to: '/sintomas'
   },
-  {
-    icon: 'verified_user',
-    label: 'Proteção',
-    separator: true,
-    to: '/protecao'
-  },
+  //{
+  //  icon: 'verified_user',
+  //  label: 'Proteção',
+  //  separator: true,
+  //  to: '/protecao'
+  //},
   {
     icon: 'web',
     label: 'Outros sites',

@@ -1,0 +1,66 @@
+{
+    "fonte": "https://oglobo.globo.com",
+    "lnk": "https://oglobo.globo.com/sociedade/coronavirus-servico/aprenda-diferenciar-os-sintomas-entre-resfriado-comum-covid-19-24320992",
+    "sintomas": [
+        {
+            "sintoma":"Febre",
+            "covid19":4,
+            "gripe":4,
+            "resfriado":1
+        },
+        {
+            "sintoma":"Cansaço",
+            "covid19":3,
+            "gripe":4,
+            "resfriado":3
+        },
+        {
+            "sintoma":"Tosse",
+            "covid19":4,
+            "gripe":4,
+            "resfriado":2
+        },
+        {
+            "sintoma":"Espirros",
+            "covid19":1,
+            "gripe":1,
+            "resfriado":4
+        },
+        {
+            "sintoma":"Dores no corpo e mal estar",
+            "covid19":3,
+            "gripe":4,
+            "resfriado":4
+        },
+        {
+            "sintoma":"Coriza ou nariz entupido",
+            "covid19":1,
+            "gripe":3,
+            "resfriado":4
+        },
+        {
+            "sintoma":"Dor de garganta",
+            "covid19":3,
+            "gripe":3,
+            "resfriado":4
+        },
+        {
+            "sintoma":"Diarreia",
+            "covid19":1,
+            "gripe":3,
+            "resfriado":1
+        },
+        {
+            "sintoma":"Dor de cabeça",
+            "covid19":3,
+            "gripe":4,
+            "resfriado":1
+        },
+        {
+            "sintoma":"Falta de ar",
+            "covid19":3,
+            "gripe":1,
+            "resfriado":1
+        }
+    ]
+}

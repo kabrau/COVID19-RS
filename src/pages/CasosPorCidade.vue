@@ -3,10 +3,10 @@
     <div class="q-pa-md">
       <q-table
         :dense="$q.screen.lt.md"
-        title="Casos"
+        title="Casos por Cidade"
         :data="data"
         :columns="columns"
-        row-key="name"
+        row-key="cidade"
         :filter="filter"
         rows-per-page-label="Registros por página"
       >
@@ -24,7 +24,7 @@
       <p v-bind:key="index" v-for="(item, index) in fonte()">
          {{index}} - {{item}}
         </p>
-    </div>
+    </div>    
   </q-page>
 </template>
 
@@ -36,8 +36,8 @@ export default {
   name: "Casos",
   methods: {
     loadDate: function(value) {
-      var d = Date.parse(value)
-      return d
+      var d = Date.parse(value);
+      return d;
     },
     fonte: () =>  casosrs.casos.map( x => x.fonte).filter( (value, index, self) =>  self.indexOf(value) === index)
   },
@@ -45,14 +45,6 @@ export default {
     return {
       filter: "",
       columns: [
-        {
-          name: "id",
-          required: true,
-          label: "Nº",
-          align: "left",
-          field: "id",
-          sortable: true
-        },
         {
           name: "cidade",
           label: "Cidade",
@@ -62,30 +54,58 @@ export default {
           sortable: true
         },
         {
-          name: "idade",
+          name: "qtd",
           align: "center",
-          label: "Idade",
-          field: "idade",
-          sortable: true
-        },
-        {
-          name: "sexo",
-          align: "center",
-          label: "sexo",
-          field: "sexo",
+          label: "Nº casos",
+          field: "qtd",
           sortable: true
         },
         {
           name: "data",
           align: "center",
-          label: "Data",
-          field: "data",
-          //format: val => `${date.formatDate(this.loadDate(val), "D/M/YYYY HH:mm:ss")}`,
+          label: "Último caso",
+          field: "lastData",
           sortable: true
         }
-      ],
-      data: casosrs.casos
+      ]
     };
+  },
+  computed: {
+    data() {
+      var cidades = [];
+      casosrs.casos.forEach(city => {
+        var found = cidades.find(x => x.cidade === city.cidade);
+        if (!found)
+          cidades = [
+            ...cidades,
+            {
+              cidade: city.cidade,
+              qtd: 1,
+              lastData: city.data,
+              lastId: city.id
+            }
+          ];
+        else {
+          found.qtd += 1;
+          if (found.id < city.id) {
+            found.lastData = city.data;
+            found.lastId = city.id;
+          }
+        }
+      });
+
+      var cidades2 = cidades.sort(function(a, b) {
+        if (a.qtd > b.qtd) {
+          return -1;
+        }
+        if (a.qtd < b.qtd) {
+          return 1;
+        }
+        return 0;
+      });
+
+      return cidades2;
+    }
   }
 };
 </script>
