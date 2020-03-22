@@ -14,7 +14,7 @@
       </q-toolbar>
       <div class="q-px-lg q-px-xl q-mb-md">
         <div class="text-h3">COVID-19 no Rio Grande do Sul - BRASIL</div>
-        <div class="text-subtitle">Última atualização {{todaysDate}}</div>
+        <div class="text-subtitle">Última atualização {{lastUpdate}}</div>
       </div>
       <q-img 
       src="statics/pandemic.jpg"
@@ -63,6 +63,7 @@
 <script>
 import EssentialLink from 'components/EssentialLink'
 import { date } from 'quasar'
+import casosrs from "../assets/casos-rs.json";
 
 const menuList = [
   {
@@ -120,6 +121,17 @@ export default {
     todaysDate() {
       let timeStamp = Date.now()
       return date.formatDate(timeStamp, 'D/M/YYYY HH:mm:ss')
+    },
+    lastUpdate() {
+      var id = 0
+      var data = ''
+      casosrs.casos.forEach(c => {
+        if (c.id > id){
+          id = c.id
+          data = c.data
+        }
+      })
+      return data
     }
   }
 }
