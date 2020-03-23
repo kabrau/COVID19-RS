@@ -50,3 +50,6 @@ https://www.aconvert.com/document/xls-to-json/
 
 mais icones
 https://www.iconfinder.com/search/?q=linkedin
+
+criar icones favicon
+https://favicon.io/favicon-generator/
