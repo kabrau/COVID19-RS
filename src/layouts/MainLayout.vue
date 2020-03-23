@@ -73,16 +73,16 @@ const menuList = [
     to: '/'
   },
   {
-    icon: 'list',
-    label: 'Casos no Estado',
-    separator: false,
-    to: '/casos'
-  },
-  {
     icon: 'location_city',
     label: 'Qtd por Cidade',
-    separator: true,
+    separator: false,
     to: '/porCidade'
+  },
+  {
+    icon: 'list',
+    label: 'Casos no Estado',
+    separator: true,
+    to: '/casos'
   },
   //{
     //icon: 'map',
