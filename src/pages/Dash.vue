@@ -44,7 +44,7 @@ export default {
   name: 'Sites',
   data () {
       return {
-        totalCasosRS: 77,
+        totalCasosRS: 85,
         totalCasosBrasil: 2000,
         totalComments: 0,
         totalTodos: 0
