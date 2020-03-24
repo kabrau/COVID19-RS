@@ -713,7 +713,7 @@
     },
     {
       "id": 80,
-      "cidade": "Lageado",
+      "cidade": "Lajeado",
       "sexo": "N/I",
       "idade": 0,
       "fonte": "https://twitter.com/SES_RS",
@@ -863,6 +863,150 @@
       "fonte": "https://twitter.com/SES_RS",
       "link": "https://twitter.com/SES_RS/status/1242199698594836480",
       "data": "23/03/2020 18:21"
+    },
+    {
+      "id": 97,
+      "cidade": "Anta Gorda",
+      "sexo": "N/I",
+      "idade": 0,
+      "fonte": "https://saude.rs.gov.br",
+      "link": "https://saude.rs.gov.br/upload/arquivos/202003/24180419-informe-epidemiologico-rs-2019-ncov-24-03-2020.pdf",
+      "data": "24/03/2020 19:30"
+    },
+    {
+      "id": 98,
+      "cidade": "Camaquã",
+      "sexo": "N/I",
+      "idade": 0,
+      "fonte": "https://saude.rs.gov.br",
+      "link": "https://saude.rs.gov.br/upload/arquivos/202003/24180419-informe-epidemiologico-rs-2019-ncov-24-03-2020.pdf",
+      "data": "24/03/2020 19:30"
+    },
+    {
+      "id": 99,
+      "cidade": "Canoas",
+      "sexo": "N/I",
+      "idade": 0,
+      "fonte": "https://saude.rs.gov.br",
+      "link": "https://saude.rs.gov.br/upload/arquivos/202003/24180419-informe-epidemiologico-rs-2019-ncov-24-03-2020.pdf",
+      "data": "24/03/2020 19:30"
+    },
+    {
+      "id": 100,
+      "cidade": "Capão da Canoa",
+      "sexo": "N/I",
+      "idade": 0,
+      "fonte": "https://saude.rs.gov.br",
+      "link": "https://saude.rs.gov.br/upload/arquivos/202003/24180419-informe-epidemiologico-rs-2019-ncov-24-03-2020.pdf",
+      "data": "24/03/2020 19:30"
+    },
+    {
+      "id": 101,
+      "cidade": "Garibaldi",
+      "sexo": "N/I",
+      "idade": 0,
+      "fonte": "https://saude.rs.gov.br",
+      "link": "https://saude.rs.gov.br/upload/arquivos/202003/24180419-informe-epidemiologico-rs-2019-ncov-24-03-2020.pdf",
+      "data": "24/03/2020 19:30"
+    },
+    {
+      "id": 102,
+      "cidade": "Lajeado",
+      "sexo": "N/I",
+      "idade": 0,
+      "fonte": "https://saude.rs.gov.br",
+      "link": "https://saude.rs.gov.br/upload/arquivos/202003/24180419-informe-epidemiologico-rs-2019-ncov-24-03-2020.pdf",
+      "data": "24/03/2020 19:30"
+    },
+    {
+      "id": 103,
+      "cidade": "Lajeado",
+      "sexo": "N/I",
+      "idade": 0,
+      "fonte": "https://saude.rs.gov.br",
+      "link": "https://saude.rs.gov.br/upload/arquivos/202003/24180419-informe-epidemiologico-rs-2019-ncov-24-03-2020.pdf",
+      "data": "24/03/2020 19:30"
+    },
+    {
+      "id": 104,
+      "cidade": "Paraí",
+      "sexo": "N/I",
+      "idade": 0,
+      "fonte": "https://saude.rs.gov.br",
+      "link": "https://saude.rs.gov.br/upload/arquivos/202003/24180419-informe-epidemiologico-rs-2019-ncov-24-03-2020.pdf",
+      "data": "24/03/2020 19:30"
+    },
+    {
+      "id": 105,
+      "cidade": "Porto Alegre",
+      "sexo": "N/I",
+      "idade": 0,
+      "fonte": "https://saude.rs.gov.br",
+      "link": "https://saude.rs.gov.br/upload/arquivos/202003/24180419-informe-epidemiologico-rs-2019-ncov-24-03-2020.pdf",
+      "data": "24/03/2020 19:30"
+    },
+    {
+      "id": 106,
+      "cidade": "Porto Alegre",
+      "sexo": "N/I",
+      "idade": 0,
+      "fonte": "https://saude.rs.gov.br",
+      "link": "https://saude.rs.gov.br/upload/arquivos/202003/24180419-informe-epidemiologico-rs-2019-ncov-24-03-2020.pdf",
+      "data": "24/03/2020 19:30"
+    },
+    {
+      "id": 107,
+      "cidade": "Porto Alegre",
+      "sexo": "N/I",
+      "idade": 0,
+      "fonte": "https://saude.rs.gov.br",
+      "link": "https://saude.rs.gov.br/upload/arquivos/202003/24180419-informe-epidemiologico-rs-2019-ncov-24-03-2020.pdf",
+      "data": "24/03/2020 19:30"
+    },
+    {
+      "id": 108,
+      "cidade": "Porto Alegre",
+      "sexo": "N/I",
+      "idade": 0,
+      "fonte": "https://saude.rs.gov.br",
+      "link": "https://saude.rs.gov.br/upload/arquivos/202003/24180419-informe-epidemiologico-rs-2019-ncov-24-03-2020.pdf",
+      "data": "24/03/2020 19:30"
+    },
+    {
+      "id": 109,
+      "cidade": "Porto Alegre",
+      "sexo": "N/I",
+      "idade": 0,
+      "fonte": "https://saude.rs.gov.br",
+      "link": "https://saude.rs.gov.br/upload/arquivos/202003/24180419-informe-epidemiologico-rs-2019-ncov-24-03-2020.pdf",
+      "data": "24/03/2020 19:30"
+    },
+    {
+      "id": 110,
+      "cidade": "Porto Alegre",
+      "sexo": "N/I",
+      "idade": 0,
+      "fonte": "https://saude.rs.gov.br",
+      "link": "https://saude.rs.gov.br/upload/arquivos/202003/24180419-informe-epidemiologico-rs-2019-ncov-24-03-2020.pdf",
+      "data": "24/03/2020 19:30"
+    },
+    {
+      "id": 111,
+      "cidade": "Serafina Correa",
+      "sexo": "N/I",
+      "idade": 0,
+      "fonte": "https://saude.rs.gov.br",
+      "link": "https://saude.rs.gov.br/upload/arquivos/202003/24180419-informe-epidemiologico-rs-2019-ncov-24-03-2020.pdf",
+      "data": "24/03/2020 19:30"
+    },
+    {
+      "id": 112,
+      "cidade": "Torres",
+      "sexo": "N/I",
+      "idade": 0,
+      "fonte": "https://saude.rs.gov.br",
+      "link": "https://saude.rs.gov.br/upload/arquivos/202003/24180419-informe-epidemiologico-rs-2019-ncov-24-03-2020.pdf",
+      "data": "24/03/2020 19:30"
     }
   ]
 }
