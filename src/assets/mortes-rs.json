@@ -1,0 +1,13 @@
+﻿{
+  "casos": [
+    {
+      "id": 1,
+      "cidade": "Porto Alegre",
+      "sexo": "M",
+      "idade": 91,
+      "fonte": "https://www.jornaldocomercio.com/",
+      "link": "https://www.jornaldocomercio.com/_conteudo/especiais/coronavirus/2020/03/729954-coronavirus-porto-alegre-tem-8-novos-casos-rs-chega-a-19.html",
+      "data": "2020-03-25 18:40"
+    }
+  ]
+}

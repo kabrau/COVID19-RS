@@ -11,6 +11,16 @@
         ></cardTotal>
       </div>
 
+      <div class="width-1of3 sm-auto q-pa-sm">
+       <cardTotal
+          title="Rio Grande do Sul"
+          subtitle="Mortes no"
+          background-color="bg-black"
+          icon-name="local_hospital"
+          :total="qtdTotalMortes">
+        </cardTotal>
+      </div>
+
       <!-- <div class="width-1of3 sm-auto q-pa-sm">
        <cardTotal
           title="Brasil"
@@ -37,6 +47,7 @@
 <script>
 import cardTotal from "../components/cardTotal.vue";
 import casosrs from "../assets/casos-rs.json";
+import mortesrs from "../assets/mortes-rs.json";
 
 export default {
   name: "Sites",
@@ -44,13 +55,23 @@ export default {
     return {
       totalCasosBrasil: 2000,
       totalComments: 0,
-      totalTodos: 0
+      totalTodos: 0,
     };
   },
   components: {
     cardTotal
   },
   computed: {
+    qtdTotalMortes() 
+    {
+      var id = 0;     
+      mortesrs.casos.forEach(c => {
+        if (c.id > id) {
+          id = c.id;          
+        }
+      });
+      return id;
+    },
     qtdTotal() {
       var id = 0;     
       casosrs.casos.forEach(c => {
